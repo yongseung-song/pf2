@@ -1,0 +1,57 @@
+header {
+
+    padding-top: 28px;
+    padding-bottom: 28px;
+    position: relative;
+}
+header div.wrap{
+    display: flex;
+    width: 1004px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header h1{
+
+}
+header h1 a{
+
+    background-image: url(../img/logo.png);
+    display: block;
+    width: 102px;
+    height: 20px;
+    background-size: cover;
+    font-size: 0;
+}
+header ul.gnb{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+header ul.gnb li{
+
+    margin-left: 42px;
+}
+header ul.gnb li a{
+
+    font-size: 16px;
+    line-height: 1.5;
+    display: block;
+}
+header button{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(../img/hamburger.png), transparent;
+    border: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 26px;
+    height: 26px;
+    font-size: 0;
+    cursor: pointer;
+}

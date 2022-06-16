@@ -1,0 +1,16 @@
+@import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html{
+    font-family: 'Spoqa Han Sans Neo', 'Nanum Gothic', 'sans-serif';
+}
+.wrap{
+    width: 1004px;
+    margin: 0 auto;
+  }
+.block {
+    display: block;
+}
+.hide {
+    display: none;
+}
